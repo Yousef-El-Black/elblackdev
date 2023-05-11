@@ -15,6 +15,9 @@ module.exports = {
         "calc-100": "calc(100vh - 100px)",
         "calc-75": "calc(100vh - 75px)",
       },
+      width: {
+        "calc1.3": "calc(100% + 1.3px)",
+      },
     },
     colors: {
       // Light Mode
