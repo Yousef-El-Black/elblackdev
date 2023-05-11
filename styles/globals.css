@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply duration-100 font-normal bg-cultured dark:bg-eerieBlack text-lightSlateGray dark:text-gainsboro overflow-x-hidden
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-dimGray dark:text-white
+  }
+  
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl
+  }
+}
+
+*, html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
