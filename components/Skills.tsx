@@ -67,35 +67,35 @@ const Skills = () => {
         <h1 className="uppercase text-center text-cultured dark:text-eerieBlack">
           Skills
         </h1>
-        <div className="flex justify-between items-center flex-1 py-5 gap-8">
-          <div className="frontend rounded-lg bg-cultured dark:bg-eerieBlack p-3 w-1/3">
+        <div className="flex flex-col lg:flex-row justify-between items-center flex-1 py-5 gap-8">
+          <div className="frontend rounded-lg bg-cultured dark:bg-eerieBlack p-3 w-full lg:w-1/3">
             <div className="head text-center text-amber dark:text-blue flex flex-col gap-1 justify-center items-center py-3">
               <WebIcon fontSize="large" className="animate-bounce" />
               <h3 className="text-amber font-semibold text-2xl">Front-End</h3>
             </div>
-            <ul className="flex flex-col bg-amber dark:bg-blue h-[320px] px-3 py-2 text-cultured text-lg tracking-wide rounded-lg">
+            <ul className="flex flex-col bg-amber dark:bg-blue lg:h-[320px] px-3 py-2 text-cultured text-lg tracking-wide rounded-lg">
               {frontendSkills.map((skill, index) => {
                 return <li key={index}>{skill}</li>;
               })}
             </ul>
           </div>
-          <div className="backend rounded-lg bg-cultured dark:bg-eerieBlack p-3 w-1/3">
+          <div className="backend rounded-lg bg-cultured dark:bg-eerieBlack p-3 w-full lg:w-1/3">
             <div className="head text-center text-amber dark:text-blue flex flex-col gap-1 justify-center items-center py-3">
               <CodeIcon fontSize="large" className="animate-bounce" />
               <h3 className="text-amber font-semibold text-2xl">Back-End</h3>
             </div>
-            <ul className="flex flex-col bg-amber dark:bg-blue h-[320px] px-3 py-2 text-cultured text-lg tracking-wide rounded-lg">
+            <ul className="flex flex-col bg-amber dark:bg-blue lg:h-[320px] px-3 py-2 text-cultured text-lg tracking-wide rounded-lg">
               {backendSkills.map((skill, index) => {
                 return <li key={index}>{skill}</li>;
               })}
             </ul>
           </div>
-          <div className="others rounded-lg bg-cultured dark:bg-eerieBlack p-3 w-1/3">
+          <div className="others rounded-lg bg-cultured dark:bg-eerieBlack p-3 w-full lg:w-1/3">
             <div className="head text-center text-amber dark:text-blue flex flex-col gap-1 justify-center items-center py-3">
               <ConstructionIcon fontSize="large" className="animate-bounce" />
               <h3 className="text-amber font-semibold text-2xl">Others</h3>
             </div>
-            <ul className="flex flex-col bg-amber dark:bg-blue h-[320px] px-3 py-2 text-cultured text-lg tracking-wide rounded-lg">
+            <ul className="flex flex-col bg-amber dark:bg-blue lg:h-[320px] px-3 py-2 text-cultured text-lg tracking-wide rounded-lg">
               {othersSkills.map((skill, index) => {
                 return <li key={index}>{skill}</li>;
               })}
