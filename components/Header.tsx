@@ -1,5 +1,5 @@
 // React
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 // Next
 import Image from "next/image";
@@ -25,6 +25,13 @@ const Header = () => {
 
   // Is Menu Open or Not (True of False)
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(theme === "dark");
+
+  // Toggle Theme
+  const toggleTheme = () => {
+    theme === "dark" ? setTheme("light") : setTheme("dark");
+    setIsDarkMode(!isDarkMode);
+  };
 
   // Nav Bar Links
   const navLinks = [
@@ -78,13 +85,10 @@ const Header = () => {
             {/* Start Theme Switcher */}
             <div
               className="switcher w-[100px] h-[50px] rounded-full bg-eerieBlack dark:bg-cultured duration-300 relative cursor-pointer"
-              onClick={() =>
-                theme === "dark" ? setTheme("light") : setTheme("dark")
-              }
+              onClick={toggleTheme}
             >
               <div className="ball w-[40px] h-[40px] absolute top-[50%] translate-y-[-50%] dark:bg-eerieBlack bg-cultured rounded-full flex justify-center items-center duration-500 dark:left-[55px] left-[5px]">
-                <LightModeIcon className="dark:block hidden" />
-                <DarkModeIcon className="block dark:hidden" />
+                {isDarkMode ? <LightModeIcon /> : <DarkModeIcon />}
               </div>
             </div>
             {/* End Theme Switcher */}
