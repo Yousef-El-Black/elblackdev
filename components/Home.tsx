@@ -113,7 +113,7 @@ const Home = () => {
                   href={btn.link}
                   key={index}
                   download={btn.download}
-                  className="rounded-full bg-cultured dark:bg-eerieBlack shadow-md drop-shadow-lg dark:shadow-lightSlateGray shadow-gainsboro p-5 hover:scale-90 hover:translate-y-1   hover:translate-x-1 duration-300"
+                  className="rounded-full bg-cultured dark:bg-eerieBlack shadow-md drop-shadow-lg dark:shadow-lightSlateGray shadow-gainsboro p-5 hover:scale-90 hover:translate-y-1 hover:translate-x-1 duration-300"
                 >
                   {btn.icon}
                 </Link>

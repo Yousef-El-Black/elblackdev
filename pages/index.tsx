@@ -6,6 +6,7 @@ import Skills from "@/components/Skills";
 import Gallery from "@/components/Gallery";
 import Preloader from "@/components/Preloader";
 import Testimonials from "@/components/Testimonials";
+import Contact from "@/components/Contact";
 
 export default function Index() {
   return (
@@ -27,6 +28,7 @@ export default function Index() {
         <Skills />
         <Gallery />
         <Testimonials />
+        <Contact />
       </main>
     </>
   );
