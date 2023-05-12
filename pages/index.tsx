@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import Home from "@/components/Home";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
+import Gallery from "@/components/Gallery";
+import Preloader from "@/components/Preloader";
 
 export default function Index() {
   return (
@@ -17,10 +19,12 @@ export default function Index() {
         <link rel="icon" href="/assets/logos/dark-logo.png" />
       </Head>
       <main>
+        <Preloader />
         <Header />
         <Home />
         <About />
         <Skills />
+        <Gallery />
       </main>
     </>
   );
