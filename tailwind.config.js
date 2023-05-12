@@ -18,6 +18,21 @@ module.exports = {
       width: {
         "calc1.3": "calc(100% + 1.3px)",
       },
+      animation: {
+        move: "move 30s linear infinite",
+        phoneMove: "phonemove 60s linear infinite",
+      },
+      keyframes: {
+        move: {
+          "0%": { transform: "translate(0%)" },
+          "50%": { transform: "translate(-40%)" },
+          "100%": { transform: "translate(0%)" },
+        },
+        phonemove: {
+          "0%, 100%": { transform: "translate(0%)" },
+          "50%": { transform: "translate(-80%)" },
+        },
+      },
     },
     colors: {
       // Light Mode
