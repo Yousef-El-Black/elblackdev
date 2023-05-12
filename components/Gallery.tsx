@@ -15,18 +15,22 @@ import SunnysideAgencyImg from "@/public/assets/imgs/gallery/sunnyside-agency.jp
 
 const Gallery = () => {
   const projects = [
-    { img: ShortlyImg, title: "Shortly", link: "/shortly" },
-    { img: RestCountriesImg, title: "Rest Countries", link: "/rest-gallery" },
+    { img: ShortlyImg, title: "Shortly", link: "/gallery/shortly" },
+    {
+      img: RestCountriesImg,
+      title: "Rest Countries",
+      link: "/gallery/rest-gallery",
+    },
     {
       img: ProjectTrackingImg,
       title: "Project Tracking",
-      link: "/project-tracking",
+      link: "/gallery/project-tracking",
     },
-    { img: InsureImg, title: "Insure", link: "/insure" },
-    { img: BlogrImg, title: "Blogr", link: "/blogr" },
-    { img: BookmarkImg, title: "Bookmark", link: "/bookmark" },
-    { img: EasybankImg, title: "Easybank", link: "/easybank" },
-    { img: LoopstudiosImg, title: "Loopstudios", link: "/loopstudios" },
+    { img: InsureImg, title: "Insure", link: "/gallery/insure" },
+    { img: BlogrImg, title: "Blogr", link: "/gallery/blogr" },
+    { img: BookmarkImg, title: "Bookmark", link: "/gallery/bookmark" },
+    { img: EasybankImg, title: "Easybank", link: "/gallery/easybank" },
+    { img: LoopstudiosImg, title: "Loopstudios", link: "/gallery/loopstudios" },
     {
       img: SunnysideAgencyImg,
       title: "Sunnyside Agency",

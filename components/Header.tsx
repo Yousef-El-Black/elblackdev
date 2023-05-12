@@ -35,16 +35,16 @@ const Header = () => {
 
   // Nav Bar Links
   const navLinks = [
-    { title: "home", link: "#home" },
-    { title: "about", link: "#about" },
-    { title: "skills", link: "#skills" },
-    { title: "gallery", link: "#gallery" },
-    { title: "contact me", link: "#contactme" },
+    { title: "home", link: "/#home" },
+    { title: "about", link: "/#about" },
+    { title: "skills", link: "/#skills" },
+    { title: "gallery", link: "/#gallery" },
+    { title: "contact me", link: "/#contactme" },
   ];
 
   return (
     <>
-      <header className="h-[75px] md:h-[100px] bg-cultured dark:bg-eerieBlack duration-300 shadow-lg dark:shadow-lightSlateGray shadow-gainsboro relative z-10">
+      <header className="h-[75px] md:h-[100px] duration-300 shadow-lg dark:shadow-lightSlateGray shadow-gainsboro relative z-10">
         {/* Start Container */}
         <div className="container mx-auto flex justify-between items-center h-full">
           {/* Start Logo */}

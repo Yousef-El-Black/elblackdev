@@ -51,8 +51,8 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(serviceID, templateID, form.current!, publicKey).then(
-      (result) => {
-        router.push("/");
+      () => {
+        router.push("/thankyou");
       },
       (error) => {
         console.log(error.text);
@@ -70,7 +70,7 @@ const Contact = () => {
           <h1 className="text-center lg:text-start">Get In Touch</h1>
         </div>
         <div className="flex flex-col lg:flex-row gap-5 my-10">
-          <div className="w-full lg:w-1/3 shadow-lg shadow-dimGray dark:shadow-gainsboro rounded-lg p-5 flex flex-col justify-between">
+          <div className="w-full lg:w-1/3 shadow-lg shadow-dimGray dark:shadow-gainsboro rounded-lg p-5 flex flex-col gap-5 justify-between">
             <div className="top">
               <div className="image aspect-video overflow-hidden rounded-lg">
                 <Image src={CodingImg} alt="dev Image" />
