@@ -9,15 +9,21 @@ import Header from "@/components/Header";
 // Images
 import Preloader from "@/components/Preloader";
 
-const Shortly = () => {
+const RestCountriesAPI = () => {
   const projectData = {
     title: "Rest Countries API",
-    demo: "/",
-    code: "/",
-    technologies: ["React", "Tailwind", "Javascript", "Firebase"],
+    demo: "https://rest-countries-api-three-rho.vercel.app/",
+    code: "https://github.com/Yousef-El-Black/Rest-Countries-Api",
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "Typescript",
+      "MUI Materials",
+      "Styled Components",
+    ],
     overview:
-      "Shortly is an online tool that allows users to create shorter, more manageable links for sharing on social media platforms or through email. By simply entering a long URL into the tool, Shortly generates a unique, condensed link that redirects to the original content when clicked. This service is especially useful for individuals and businesses looking to track click-through rates and analyze web traffic. Additionally, Shortly offers customization options, such as the ability to choose a custom domain or add a description to the link, making it a versatile and user-friendly tool.",
-    imgLink: "/assets/imgs/gallery/shortly.jpg",
+      "The Country REST API Tool is a versatile and powerful tool designed to provide developers with easy access to comprehensive country information. It offers a standardized and convenient way to retrieve data about various countries worldwide through a RESTful API interface. This test overview highlights the key features, functionalities, and benefits of using the Country REST API Tool.",
+    imgLink: "/assets/imgs/gallery/rest-countries.jpg",
   };
 
   return (
@@ -57,12 +63,14 @@ const Shortly = () => {
               <p className="py-4 leading-8">{projectData.overview}</p>
               <div className="btns flex justify-center lg:justify-start items-center gap-4">
                 <Link
+                  target="_blanc"
                   href={projectData.demo}
                   className="bg-amber dark:bg-blue rounded-lg py-2 px-4 hover:scale-105 duration-300 text-white"
                 >
                   Demo
                 </Link>
                 <Link
+                  target="_blanc"
                   href={projectData.code}
                   className="bg-amber dark:bg-blue rounded-lg py-2 px-4 hover:scale-105 duration-300 text-white"
                 >
@@ -92,4 +100,4 @@ const Shortly = () => {
   );
 };
 
-export default Shortly;
+export default RestCountriesAPI;

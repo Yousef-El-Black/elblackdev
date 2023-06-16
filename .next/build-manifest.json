@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/gallery/shortly": [
+    "/gallery/blogr": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/gallery/shortly.js"
+      "static/chunks/pages/gallery/blogr.js"
     ]
   },
   "ampFirstPages": []
