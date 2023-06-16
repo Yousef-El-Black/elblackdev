@@ -163,8 +163,7 @@ const Header = () => {
               }
             >
               <div className="ball w-[40px] h-[40px] absolute top-[50%] translate-y-[-50%] dark:bg-eerieBlack bg-cultured rounded-full flex justify-center items-center duration-500 dark:left-[55px] left-[5px]">
-                <LightModeIcon className="dark:block hidden" />
-                <DarkModeIcon className="block dark:hidden" />
+                {isDarkMode ? <LightModeIcon /> : <DarkModeIcon />}
               </div>
             </div>
           </div>
