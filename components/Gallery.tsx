@@ -19,7 +19,7 @@ const Gallery = () => {
     {
       img: RestCountriesImg,
       title: "Rest Countries",
-      link: "/gallery/rest-gallery",
+      link: "/gallery/rest-countries-api",
     },
     {
       img: ProjectTrackingImg,

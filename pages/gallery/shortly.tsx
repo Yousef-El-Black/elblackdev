@@ -32,7 +32,7 @@ const Shortly = () => {
         <div className="h-[280px] lg:h-[324px] relative w-full overflow-hidden">
           <Header />
           <h1 className="absolute bottom-8 left-[50%] translate-x-[-50%] lg:translate-x-0 lg:left-0 container mx-auto z-[2] text-white">
-            Shortly
+            {projectData.title}
           </h1>
           <Image
             src={projectData.imgLink}
