@@ -7,7 +7,6 @@ import Head from "next/head";
 import Header from "@/components/Header";
 
 // Images
-import ShortlyImg from "@/public/assets/imgs/gallery/shortly.jpg";
 import Preloader from "@/components/Preloader";
 
 const Shortly = () => {
