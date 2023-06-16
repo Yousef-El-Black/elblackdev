@@ -158,9 +158,7 @@ const Header = () => {
           <div className="bottom w-full py-5 flex justify-center items-center">
             <div
               className="switcher w-[100px] h-[50px] rounded-full bg-eerieBlack dark:bg-cultured duration-300 relative cursor-pointer"
-              onClick={() =>
-                theme === "dark" ? setTheme("light") : setTheme("dark")
-              }
+              onClick={toggleTheme}
             >
               <div className="ball w-[40px] h-[40px] absolute top-[50%] translate-y-[-50%] dark:bg-eerieBlack bg-cultured rounded-full flex justify-center items-center duration-500 dark:left-[55px] left-[5px]">
                 {isDarkMode ? <LightModeIcon /> : <DarkModeIcon />}
