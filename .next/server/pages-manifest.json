@@ -1,7 +1,11 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/gallery/blogr": "pages/gallery/blogr.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html",
+  "/gallery/blogr": "pages/gallery/blogr.html",
+  "/gallery/rest-countries-api": "pages/gallery/rest-countries-api.html",
+  "/gallery/shortly": "pages/gallery/shortly.html",
+  "/": "pages/index.html",
+  "/thankyou": "pages/thankyou.html"
 }
