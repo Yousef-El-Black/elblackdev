@@ -36,7 +36,7 @@ const Testimonials = () => {
   return (
     <div
       id="testimonials"
-      className="w-screen border-amber dark:border-blue border-t-[1px] border-b-[1px] my-5 py-5"
+      className="w-screen overflow-hidden border-amber dark:border-blue border-t-[1px] border-b-[1px] my-5 py-5"
     >
       <h1 className="uppercase text-center text-amber dark:text-blue">
         Testimonials
