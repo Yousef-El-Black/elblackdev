@@ -5,6 +5,7 @@
 @layer base {
   body {
     @apply duration-100 font-normal bg-cultured dark:bg-eerieBlack text-lightSlateGray dark:text-gainsboro overflow-x-hidden;
+    width: 100vw;
   }
 
   h1,
